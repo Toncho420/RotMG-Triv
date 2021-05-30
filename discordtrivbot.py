@@ -107,4 +107,4 @@ async def on_command_error(ctx, error):
         raise error
 
 
-bot.run('ODQ4Mjk1NTcyNTY5MDYzNDk1.YLKi0Q.3cBHGD2CmCEXLKguqSOwbf8tM7c')
+bot.run('TOKEN')
