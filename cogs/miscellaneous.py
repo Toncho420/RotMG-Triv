@@ -10,8 +10,9 @@ class Miscellaneous(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    # @commands.command(brief="plant")
-    # async def kek(self, ctx):
-    #     await ctx.send("cactus")
+    @commands.command(brief = "Plant")
+    async def kek(self, ctx):
+        await ctx.send("Cactus")
+        
 def setup(bot):
     bot.add_cog(Miscellaneous(bot))
